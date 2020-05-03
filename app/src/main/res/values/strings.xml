@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VidalAc</string>
+    <string name="proyecto">proyecto</string>
+    <string name="decimas">decimas</string>
+    <string name="guardar">guardar</string>
+    <string name="minutos">minutos</string>
+</resources>

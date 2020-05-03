@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valores_array">
+
+        <item>149</item>
+        <item>183</item>
+        <item>195</item>
+        <item>198</item>
+        <item>199</item>
+        <item>Sin realizar</item>
+        <item>Realizada</item>
+        <item>Borrar_Color</item>
+    </string-array>
+</resources>

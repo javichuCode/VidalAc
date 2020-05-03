@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context=".Consulta">
+
+    <TextView
+        android:id="@+id/tvCabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:text="Registros"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/grafica"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#FFFFFF"
+        android:paddingTop="10dp" />
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="74dp"
+            android:layout_weight="1"
+            android:onClick="btnProyecto"
+            android:text="@string/proyecto" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="120dp"
+            android:layout_height="74dp"
+            android:layout_weight="1"
+            android:onClick="btnMin"
+            android:text="Tiempos" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="74dp"
+            android:layout_weight="1"
+            android:backgroundTint="#8BC34A"
+            android:text="Consulta" />
+    </LinearLayout>
+
+
+</LinearLayout>
